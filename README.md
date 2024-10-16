@@ -13,13 +13,13 @@ In this Social Network API, user is able to See all Users, See specific user, Cr
 ## Dependencies
 TypeScript, Mongodb, Mongoose, Insomnia, NodeJS, Express
 ## Usage
-Clone the Repository 
+* Clone the Repository 
 git clone https://github.com/Reisleo99/Social-Network-API-Leo.git
-npm install dependencies
-create a .env file in the root and paste: MONGODB_URI=mongodb://localhost:27017/socialNetworkDB
-npm run build
-npm run start
-Once the server is running, you can interact with the API using Insomnia, Postman, or any similar tool to make requests. The API is hosted locally on port 3001 unless otherwise specified.
+* npm install dependencies
+* create a .env file in the root and paste: MONGODB_URI=mongodb://localhost:27017/socialNetworkDB
+* npm run build
+* npm run start
+* Once the server is running, you can interact with the API using Insomnia, Postman, or any similar tool to make requests. The API is hosted locally on port 3001 unless otherwise specified.
 ## Contact-me
 * Name - Leonardo Reis
 * Email - leonardo.ao.reis@gmail.com
