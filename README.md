@@ -6,6 +6,7 @@ by Leonardo Reis
 * [Dependencies](#dependencies)
 * [Usage](#usage)
 * [Contact-Me](#contact-me)
+* [Walkthrough Video](#walkthrough)
 * [License](#license)
 
 ## Description
@@ -24,6 +25,8 @@ git clone https://github.com/Reisleo99/Social-Network-API-Leo.git
 * Name - Leonardo Reis
 * Email - leonardo.ao.reis@gmail.com
 * Github - [Reisleo99](https://github.com/Reisleo99)
+## Walkthrough
+https://drive.google.com/file/d/1UsQf39qg5liZLHwczYg9fk_AHf1Pr1pO/view?usp=drive_link
 ## License
 
 Licensed under the MIT license.
