@@ -1,0 +1,138 @@
+_resources:
+  - _id: req_1
+    parentId: fld_1
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/users
+    name: GET All Users
+    method: GET
+  - _id: req_2
+    parentId: fld_1
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/users/{{ userId }}
+    name: GET Single User by ID
+    method: GET
+  - _id: req_3
+    parentId: fld_1
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/users
+    name: POST Create User
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+          "username": "sampleUser",
+          "email": "sampleuser@email.com"
+        }
+  - _id: req_4
+    parentId: fld_1
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/users/{{ userId }}
+    name: PUT Update User by ID
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |
+        {
+          "username": "updatedUser",
+          "email": "updateduser@email.com"
+        }
+  - _id: req_5
+    parentId: fld_1
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/users/{{ userId }}
+    name: DELETE User by ID
+    method: DELETE
+  - _id: req_6
+    parentId: fld_1
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/users/{{ userId }}/friends/{{ friendId }}
+    name: POST Add Friend
+    method: POST
+  - _id: req_7
+    parentId: fld_1
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/users/{{ userId }}/friends/{{ friendId }}
+    name: DELETE Remove Friend
+    method: DELETE
+  - _id: req_8
+    parentId: fld_2
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/thoughts
+    name: GET All Thoughts
+    method: GET
+  - _id: req_9
+    parentId: fld_2
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/thoughts/{{ thoughtId }}
+    name: GET Single Thought by ID
+    method: GET
+  - _id: req_10
+    parentId: fld_2
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/thoughts
+    name: POST Create Thought
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+          "thoughtText": "Here's a cool thought...",
+          "username": "sampleUser",
+          "userId": "userId123"
+        }
+  - _id: req_11
+    parentId: fld_2
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/thoughts/{{ thoughtId }}
+    name: PUT Update Thought by ID
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |
+        {
+          "thoughtText": "Updated Thought Text"
+        }
+  - _id: req_12
+    parentId: fld_2
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/thoughts/{{ thoughtId }}
+    name: DELETE Thought by ID
+    method: DELETE
+  - _id: req_13
+    parentId: fld_2
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/thoughts/{{ thoughtId }}/reactions
+    name: POST Add Reaction
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+          "reactionBody": "This is a reaction!",
+          "username": "sampleUser"
+        }
+  - _id: req_14
+    parentId: fld_2
+    modified: 0
+    created: 0
+    url: http://localhost:3001/api/thoughts/{{ thoughtId }}/reactions/{{ reactionId }}
+    name: DELETE Remove Reaction
+    method: DELETE
+_type: export
+__export_format: 4
+__export_date: 2024-10-07T00:00:00.000Z
+__export_source: insomnia.desktop.app:v2023.1.0
